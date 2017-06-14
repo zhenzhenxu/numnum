@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C2040C9CC41262479A83D871 /* Pods_bigWeiAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8BCBA70B21F911019B2277 /* Pods_bigWeiAPP.framework */; };
 		C209B53A1EF1A8260008F791 /* basic_code_table.json in Resources */ = {isa = PBXBuildFile; fileRef = C209B5331EF1A8260008F791 /* basic_code_table.json */; };
+		C209B53D1EF1D2C60008F791 /* BWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C209B53C1EF1D2C60008F791 /* BWTabBarController.m */; };
 		C20F10EB1EF09B51003EB4D1 /* CodeTableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C20F10D41EF09B51003EB4D1 /* CodeTableManager.m */; };
 		C20F10EC1EF09B51003EB4D1 /* NSDate+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = C20F10D61EF09B51003EB4D1 /* NSDate+Format.m */; };
 		C20F10ED1EF09B51003EB4D1 /* NSString+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C20F10D81EF09B51003EB4D1 /* NSString+Extend.m */; };
@@ -33,6 +34,10 @@
 		C274E46D1EEF77270064A772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C274E46B1EEF77270064A772 /* Main.storyboard */; };
 		C274E46F1EEF77270064A772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C274E46E1EEF77270064A772 /* Assets.xcassets */; };
 		C274E4721EEF77270064A772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C274E4701EEF77270064A772 /* LaunchScreen.storyboard */; };
+		C2C7C3921EF1E004008D1FC1 /* BWConst.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C7C3911EF1E004008D1FC1 /* BWConst.m */; };
+		C2C7C3951EF1E578008D1FC1 /* BWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C7C3941EF1E578008D1FC1 /* BWNavigationController.m */; };
+		C2C7C39E1EF1E75A008D1FC1 /* BWLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C7C39D1EF1E75A008D1FC1 /* BWLoginController.m */; };
+		C2C7C3A11EF1F191008D1FC1 /* BWUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C7C3A01EF1F191008D1FC1 /* BWUserManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +51,8 @@
 		C209B5371EF1A8260008F791 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
 		C209B5381EF1A8260008F791 /* NetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkConfig.h; sourceTree = "<group>"; };
 		C209B5391EF1A8260008F791 /* SingleInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleInstance.h; sourceTree = "<group>"; };
+		C209B53B1EF1D2C60008F791 /* BWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWTabBarController.h; sourceTree = "<group>"; };
+		C209B53C1EF1D2C60008F791 /* BWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWTabBarController.m; sourceTree = "<group>"; };
 		C20F10D31EF09B51003EB4D1 /* CodeTableManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeTableManager.h; sourceTree = "<group>"; };
 		C20F10D41EF09B51003EB4D1 /* CodeTableManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeTableManager.m; sourceTree = "<group>"; };
 		C20F10D51EF09B51003EB4D1 /* NSDate+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Format.h"; sourceTree = "<group>"; };
@@ -91,6 +98,14 @@
 		C274E46E1EEF77270064A772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C274E4711EEF77270064A772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C274E4731EEF77270064A772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C7C3901EF1E004008D1FC1 /* BWConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWConst.h; sourceTree = "<group>"; };
+		C2C7C3911EF1E004008D1FC1 /* BWConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWConst.m; sourceTree = "<group>"; };
+		C2C7C3931EF1E578008D1FC1 /* BWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWNavigationController.h; sourceTree = "<group>"; };
+		C2C7C3941EF1E578008D1FC1 /* BWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWNavigationController.m; sourceTree = "<group>"; };
+		C2C7C39C1EF1E75A008D1FC1 /* BWLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWLoginController.h; sourceTree = "<group>"; };
+		C2C7C39D1EF1E75A008D1FC1 /* BWLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWLoginController.m; sourceTree = "<group>"; };
+		C2C7C39F1EF1F191008D1FC1 /* BWUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWUserManager.h; sourceTree = "<group>"; };
+		C2C7C3A01EF1F191008D1FC1 /* BWUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWUserManager.m; sourceTree = "<group>"; };
 		C2F8A9541EF0761400AC2552 /* bigWei.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bigWei.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +148,8 @@
 				C209B5371EF1A8260008F791 /* Macro.h */,
 				C209B5381EF1A8260008F791 /* NetworkConfig.h */,
 				C209B5391EF1A8260008F791 /* SingleInstance.h */,
+				C2C7C3901EF1E004008D1FC1 /* BWConst.h */,
+				C2C7C3911EF1E004008D1FC1 /* BWConst.m */,
 			);
 			name = Config;
 			path = bigWeiAPP/Config;
@@ -165,6 +182,7 @@
 		C274E4561EEF77270064A772 = {
 			isa = PBXGroup;
 			children = (
+				C2C7C3971EF1E735008D1FC1 /* Classes */,
 				C209B5321EF1A8260008F791 /* Config */,
 				C2F8A9531EF0757500AC2552 /* Category */,
 				C274E47F1EEF7DDC0064A772 /* Other */,
@@ -217,9 +235,57 @@
 				C2F8A9541EF0761400AC2552 /* bigWei.pch */,
 				C20F11341EF0A61B003EB4D1 /* BaseViewController.h */,
 				C20F11351EF0A61B003EB4D1 /* BaseViewController.m */,
+				C209B53B1EF1D2C60008F791 /* BWTabBarController.h */,
+				C209B53C1EF1D2C60008F791 /* BWTabBarController.m */,
+				C2C7C3931EF1E578008D1FC1 /* BWNavigationController.h */,
+				C2C7C3941EF1E578008D1FC1 /* BWNavigationController.m */,
 			);
 			name = Other;
 			path = bigWeiAPP/Other;
+			sourceTree = "<group>";
+		};
+		C2C7C3971EF1E735008D1FC1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C2C7C3981EF1E735008D1FC1 /* Login */,
+				C2C7C39F1EF1F191008D1FC1 /* BWUserManager.h */,
+				C2C7C3A01EF1F191008D1FC1 /* BWUserManager.m */,
+			);
+			name = Classes;
+			path = bigWeiAPP/Classes;
+			sourceTree = "<group>";
+		};
+		C2C7C3981EF1E735008D1FC1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C2C7C3991EF1E735008D1FC1 /* Controller */,
+				C2C7C39A1EF1E735008D1FC1 /* Model */,
+				C2C7C39B1EF1E735008D1FC1 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C2C7C3991EF1E735008D1FC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2C7C39C1EF1E75A008D1FC1 /* BWLoginController.h */,
+				C2C7C39D1EF1E75A008D1FC1 /* BWLoginController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C2C7C39A1EF1E735008D1FC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2C7C39B1EF1E735008D1FC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		C2F8A9531EF0757500AC2552 /* Category */ = {
@@ -379,6 +445,7 @@
 			files = (
 				C274E46A1EEF77270064A772 /* ViewController.m in Sources */,
 				C20F11431EF0A7EC003EB4D1 /* ErrorView.m in Sources */,
+				C2C7C3951EF1E578008D1FC1 /* BWNavigationController.m in Sources */,
 				C20F11361EF0A61B003EB4D1 /* BaseViewController.m in Sources */,
 				C20F11421EF0A7EC003EB4D1 /* EmptyView.m in Sources */,
 				C20F10F11EF09B51003EB4D1 /* UIColor+Hexadecimal.m in Sources */,
@@ -389,11 +456,15 @@
 				C20F10EB1EF09B51003EB4D1 /* CodeTableManager.m in Sources */,
 				C21FC40A1EF0CAB0008B90EC /* BWNetworkTools.m in Sources */,
 				C20F10F01EF09B51003EB4D1 /* SelectTypePickerView.m in Sources */,
+				C2C7C3921EF1E004008D1FC1 /* BWConst.m in Sources */,
 				C20F10EE1EF09B51003EB4D1 /* NSString+PinYin.m in Sources */,
 				C274E4671EEF77270064A772 /* AppDelegate.m in Sources */,
+				C2C7C3A11EF1F191008D1FC1 /* BWUserManager.m in Sources */,
 				C20F10F31EF09B51003EB4D1 /* UIImage+Extend.m in Sources */,
 				C20F10F21EF09B51003EB4D1 /* UIHelper.m in Sources */,
 				C20F10EC1EF09B51003EB4D1 /* NSDate+Format.m in Sources */,
+				C209B53D1EF1D2C60008F791 /* BWTabBarController.m in Sources */,
+				C2C7C39E1EF1E75A008D1FC1 /* BWLoginController.m in Sources */,
 				C20F11391EF0A6BC003EB4D1 /* NavigationBarController.m in Sources */,
 				C20F10F41EF09B51003EB4D1 /* UIView+Extend.m in Sources */,
 				C274E4641EEF77270064A772 /* main.m in Sources */,

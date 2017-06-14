@@ -24,7 +24,6 @@
 - (void)stopLoading;
 - (void)showToast:(NSString *)text;
 
-
 /**
  *  设置导航右端图片
  *
